@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare JSON</title>
+</head>
+<body>
+    <!-- how to compare two JSON have the same properties without order?
+        a. var obj1={name:"Person 1",age:5};
+        b. var obj2={age:5, name:"Person 1"}; -->
+
+        <script>
+            var obj1={name:"Person 1",age:5};
+            var obj2={age:5, name:"Person 1"};
+
+            console.log(_.isequal(0,0));
+           console.log(JSON.stringify(obj1) === JSON.stringify(obj2))
+            // var _  = require('lodash');
+            // console.log(equal(obj1,obj2));
+
+            
+        </script>
+</body>
+</html>
